@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from '../assets/hoton.jpg'
 
 
 function navBar(){
@@ -6,7 +7,9 @@ function navBar(){
 
     return(
         <>
-        <div>
+        <div className="navBar">
+            <img src={Logo}/>
+            <hi>HOTON-TECH</hi>
             
         </div>
         </>
